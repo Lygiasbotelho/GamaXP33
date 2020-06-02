@@ -115,15 +115,15 @@ body{
     color: #fff;
     min-height: 120px;
 }
-h2, h3, h4, h5{
+h2, h3, h4, h5, h6{
     padding: 4% 0%;
     font-size: 2.4rem;
 }
 #quemSomos p{
     width: 84%;
     font-family: "Avenir Book";
-    font-size: 1.2rem;
-    line-height: 26px;
+    font-size: 1.4rem;
+    line-height: 34px;
     text-align: justify;
 }
 #quemSomos .fotoGupo{
@@ -145,27 +145,28 @@ h2, h3, h4, h5{
 }
 .containerAjuda{
     width: 82vw;
+    padding-bottom: 4%;
 }
+.containerAjuda p{
+    font-family: "Avenir Book";
+    font-size: 1.4rem;
+    line-height: 26px;
+    padding: 1.5% 0%;
+    text-align: justify;
+}
+
 .doacoes{
     display: flex;
     align-items: center;
     width: 100%;
     text-align: justify;
 }
-.doacoes p{
-    font-family: "Avenir Book";
-    font-size: 1.2rem;
-    line-height: 26px;
-    padding: 1.5% 0%;
-}
 .doacoes__one p{
     width: 94%;
-}
-.doacoes__one p{
     font-family: "Avenir Book";
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 26px;
-    padding: 1.5% 0%;
+    padding: 1.2% 0%;
 }
 .doacoes__two{
     width: 40vw;
@@ -174,6 +175,51 @@ h2, h3, h4, h5{
 .doacoes__two img{
     width: 18vw;
     padding-left: 8%;
+}
+p span{
+    padding-right: 1.5%;
+}
+#emAcao{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color:#424A55;
+}
+.videos{
+    display: flex;
+    justify-content: space-around;
+    width: 88vw;
+    padding-bottom: 4%;
+}
+#emAcao h6{
+    width: 72vw;
+    text-align: center;
+    line-height: 48px;
+}
+/*========== Footer Início =========*/
+footer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.containerFooter{
+    display: flex;
+    justify-content: space-around;
+    width: 88vw;
+}
+.colunm__footer{
+    width: 22vw;
+}
+.colunm__footer p{
+    padding-right: 12%;
+}
+.colunm__rede{
+width: 6vw;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
 }
 @media screen and (max-width: 1050px){
     /*========== Menu Início =========*/
