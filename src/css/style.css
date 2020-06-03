@@ -83,10 +83,11 @@ body{
     width: 156px;
 } */
 .foto{
-    background: #A3DBA5;
-    width: 380px;
-    padding: 20px 0.5px 0.5px 17px;
-    
+     /*background: #A3DBA5;
+     width: 380px;*/
+     box-shadow: -20px -16px #A3DBA5;
+     width: 480px;
+    /* padding: 20px 0.5px 0.5px 17px;*/
 }
 .sideRigth{
     display: flex;
@@ -174,7 +175,8 @@ h2, h3, h4, h5, h6{
 }
 .doacoes__two img{
     width: 18vw;
-    padding-left: 8%;
+    /*  padding-left: 8%;*/
+      box-shadow: -15px -10px #F7B692;
 }
 p span{
     padding-right: 1.5%;
