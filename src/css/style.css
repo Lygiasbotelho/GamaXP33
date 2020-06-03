@@ -70,24 +70,15 @@ body{
 #start{
     background: #ef6e2691;
     display: flex;
+    min-height: 200px;
 }
 .sideLeft{
     width: 45%;
-    padding: 3% 0% 4% 8%;
+    padding: 5% 0% 4% 8%;
 }
-/* .sombraFoto{
-    padding: 80px;
-    height: 80px;
-    background: #A3DBA5;
-    position: relative;
-    width: 156px;
-} */
 .foto{
-     /*background: #A3DBA5;
-     width: 380px;*/
-     box-shadow: -20px -16px #A3DBA5;
-     width: 480px;
-    /* padding: 20px 0.5px 0.5px 17px;*/
+    box-shadow: -20px -16px #A3DBA5; 
+    width: 480px;
 }
 .sideRigth{
     display: flex;
@@ -97,6 +88,7 @@ body{
     padding-top: 3%;
     color: #fff;
     font-size: 2rem;
+    padding: 3% 0%;
 }
 .linkAjuda{
     padding: 20px;
@@ -155,7 +147,6 @@ h2, h3, h4, h5, h6{
     padding: 1.5% 0%;
     text-align: justify;
 }
-
 .doacoes{
     display: flex;
     align-items: center;
@@ -175,8 +166,7 @@ h2, h3, h4, h5, h6{
 }
 .doacoes__two img{
     width: 18vw;
-    /*  padding-left: 8%;*/
-      box-shadow: -15px -10px #F7B692;
+    box-shadow: -15px -10px #F7B692;
 }
 p span{
     padding-right: 1.5%;
@@ -193,7 +183,7 @@ p span{
     display: flex;
     justify-content: space-around;
     width: 88vw;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
 }
 #emAcao h6{
     width: 72vw;
@@ -205,24 +195,54 @@ footer{
     width: 100vw;
     display: flex;
     justify-content: space-around;
+    background: #E3E7EC;
+    padding: 4% 0%;
 }
 .containerFooter{
     display: flex;
     justify-content: space-around;
-    width: 88vw;
+    width: 76vw;
+}
+.conteinarText{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 .colunm__footer{
     width: 22vw;
+    color: #424A55;
+    font-family: "Avenir Book";
+    font-size: 1;
+    line-height: 26px;
 }
 .colunm__footer p{
-    padding-right: 12%;
+    width: 80%;
+}
+.title{
+    padding: 6% 0%;
+}
+.colunm__center{
+    width: 100%;
+    display: flex;
+}
+.colunm__center img{
+    width: 4%;
+    padding-right: 4%;
 }
 .colunm__rede{
-width: 6vw;
+width: 1vw;
 display: flex;
 flex-direction: column;
+justify-content: space-around;
 align-items: flex-end;
+font-size: 34px; 
+color:#424A55;
 }
+.fa{
+    width: 6%;
+    text-align: center;
+}
+
 @media screen and (max-width: 1050px){
     /*========== Menu Início =========*/
     .menuText{
