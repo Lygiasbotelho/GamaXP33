@@ -16,13 +16,21 @@
 }
 body{
     font-family: "Century Gothic";
+    position: relative;
 }
 /*========== Menu Início =========*/
+.menu{
+    position: absolute;
+}
 .menu__nav{
+    background: #fff;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 1%;
+    padding: 1% 0%;
+    top:0%;
+    left:0%;
 }
 .nav__logo{
     width: 4vw;
@@ -68,6 +76,7 @@ body{
 }
 /*========== Menu Fim =========*/
 #start{
+    padding-top: 100px;
     background: #ef6e2691;
     display: flex;
     min-height: 200px;
@@ -78,7 +87,7 @@ body{
 }
 .foto{
     box-shadow: -20px -16px #A3DBA5; 
-    width: 480px;
+    width: 88%;
 }
 .sideRigth{
     display: flex;
@@ -88,10 +97,11 @@ body{
     padding-top: 3%;
     color: #fff;
     font-size: 2rem;
-    padding: 3% 0%;
+    padding: 3% 4% 3% 0%;
+    width: 55%;
 }
 .linkAjuda{
-    padding: 20px;
+    padding: 5%;
     background: #A3DBA5;
     box-shadow: 0px 4px 8px #00000029;
     border-radius: 8px;
@@ -119,14 +129,18 @@ h2, h3, h4, h5, h6{
     line-height: 34px;
     text-align: justify;
 }
-#quemSomos .fotoGupo{
+.containerGupo{
+    display: flex;
+    width: 86%;
+}
+.fotoGupo{
     display: flex;
     justify-content: space-around;
-    width: 88vw;
+    width: 100%;
     padding-bottom: 4%;
 }
-#quemSomos .fotoGupo img{
-    width: 20%;
+.fotoGupo img{
+    width: 40%;
 }
 #comoAjudar{
     background: #E3E7EC;
@@ -161,11 +175,10 @@ h2, h3, h4, h5, h6{
     padding: 1.2% 0%;
 }
 .doacoes__two{
-    width: 40vw;
-    align-content: flex-end;
+    width: 50%;
 }
 .doacoes__two img{
-    width: 18vw;
+    width: 100%;
     box-shadow: -15px -10px #F7B692;
 }
 p span{
@@ -226,7 +239,7 @@ footer{
     display: flex;
 }
 .colunm__center img{
-    width: 4%;
+    width: 5%;
     padding-right: 4%;
 }
 .colunm__rede{
@@ -242,13 +255,15 @@ color:#424A55;
     width: 6%;
     text-align: center;
 }
-
 @media screen and (max-width: 1050px){
     /*========== Menu Início =========*/
     .menuText{
         font-size: 1.2rem;
     }   
     /*========== Menu Fim =========*/
+    .colunm__center img{
+        width: 8%;
+    }
 }
 @media screen and (max-width: 880px){
     /*========== Menu Início =========*/
@@ -259,6 +274,33 @@ color:#424A55;
         width: 82%
     }
     /*========== Menu Fim =========*/
+    h1, h2, h3, h4, h5, h6{
+        font-size: 1.4rem;
+    }
+    .linkAjuda{
+        font-size: 1rem;
+        padding: 4%;
+    }
+    #quemSomos p{
+        font-size: 1rem;
+    }
+    .containerAjuda p{
+        font-size: 1rem;
+    }
+    .doacoes{
+        flex-direction: column;
+    }
+    .doacoes__two{
+        align-items: center;
+    }
+    .containerFooter{
+        flex-direction: column;
+    }
+    .colunm__rede{
+        flex-direction: row;
+        width: 100%;
+        padding-top: 4%;
+    }
 } 
 @media screen and (max-width: 650px){
    /*========== Menu Início =========*/
@@ -281,6 +323,44 @@ color:#424A55;
         width: 2.8vw;
     }
     /*========== Menu Fim =========*/
+    #start{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 120px;
+        padding-bottom: 4%;
+    }
+    .sideLeft, .sideRigth {
+        width: 80%;
+    }
+    .foto{
+        width: 70%;
+    }
+    .containerGupo{
+        width: 80%;
+        flex-direction: column;
+    }
+    .videos{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    video{
+        width: 100%;
+        padding: 4%; 
+    }
+    .conteinarText{
+        flex-direction: column;
+    }
+    .colunm__footer {
+        width: 100vw;
+    }
+    .title{
+        padding: 4% 0%;
+    }
+    .colunm__center img {
+        width: 3%;
+    }
 } 
 @media screen and (max-width: 550px){
     /*========== Menu Início =========*/
