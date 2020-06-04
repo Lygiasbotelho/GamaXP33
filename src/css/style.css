@@ -304,7 +304,7 @@ color:#424A55;
         padding-top: 4%;
     }
 } 
-@media screen and (max-width: 650px){
+@media screen and (min-width: 650px){
    /*========== Menu Início =========*/
     .menu__nav{
         padding-top: 2%;
