@@ -20,7 +20,8 @@ body{
 }
 /*========== Menu Início =========*/
 .menu{
-    position: absolute;
+    z-index: 999999;
+    position: fixed;
     width: 100%;
     top:0%;
     left:0%;
