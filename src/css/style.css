@@ -103,7 +103,7 @@ body{
     width: 55%;
 }
 .linkAjuda{
-    padding: 5%;
+    padding: 3%;
     background: #A3DBA5;
     box-shadow: 0px 4px 8px #00000029;
     border-radius: 8px;
@@ -286,6 +286,10 @@ color:#424A55;
     #quemSomos p{
         font-size: 1rem;
     }
+    .containerGupo{
+        width: 80%;
+        flex-direction: column;
+    }
     .containerAjuda p{
         font-size: 1rem;
     }
@@ -308,6 +312,7 @@ color:#424A55;
    /*========== Menu Início =========*/
     .menu__nav{
         padding-top: 2%;
+        min-width: 100%;
     }
     .nav__logo img {
         width: 10vw;
@@ -333,36 +338,41 @@ color:#424A55;
         padding-bottom: 4%;
     }
     .sideLeft, .sideRigth {
-        width: 80%;
+        width: 65%;
+    }
+    video{
+        padding: 4% 0%;
+        width: 100%;
     }
     .foto{
-        width: 70%;
+        width: 90%;
     }
-    .containerGupo{
-        width: 80%;
+    .fotoGupo{
+        width: 100%;
         flex-direction: column;
+        align-items: center;
+        padding-bottom: 0%;
+    }
+    .fotoGupo img{
+        width: 80%;
+        padding-bottom: 4%;
     }
     .videos{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
-    video{
-        width: 100%;
-        padding: 4%; 
-    }
     .conteinarText{
         flex-direction: column;
     }
     .colunm__footer {
-        width: 100vw;
+        width: 100%;
     }
     .title{
         padding: 4% 0%;
     }
     .colunm__center img {
         width: 3%;
-    }
 } 
 @media screen and (max-width: 550px){
     /*========== Menu Início =========*/
